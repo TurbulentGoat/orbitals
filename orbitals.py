@@ -161,7 +161,7 @@ with col_display:
             camera=camera
         ),
         width=950,
-        height=500,
+        height=800,
         margin=dict(l=0, r=0, t=40, b=0)
     )
     st.plotly_chart(fig1, use_container_width=False)
